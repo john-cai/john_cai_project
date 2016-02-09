@@ -1,0 +1,38 @@
+:ruby
+
+%html
+  %head
+    %title Investor Ledger
+
+    %link(rel="stylesheet" href="reset.css")
+    %link(rel="stylesheet" href="styles.css")
+
+  %body
+    %h1
+      Your investing account ($0 available)
+      .small
+        08/19/2014 - 10/15/2014
+
+    .content
+      %table
+        %thead
+          %tr
+            %th Date
+            %th Type
+            %th Description
+            %th Amount
+            %th Balance
+
+        %tbody
+          - @ledger_data.each do |entry|
+            %tr
+              %td
+                = entry['date']
+              %td
+                = entry['type']
+              %td
+
+              %td
+                = entry['amount']
+              %td
+                = entry['balance']
