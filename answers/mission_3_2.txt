@@ -1,1 +1,7 @@
 Write your email to Dr. Horrible here.
+
+Dear Dr. Horrible,
+
+We've investigated the issue you raised about the missing transaction. We confirmed that your transaction did go through with the bank, but due to a bug in our code we incorrectly cleared it from the transaction history. Unfortunately we already closed the deal. We're so sorry about this--this is completely our fault. We already contacted Startup X and are exploring different options to be able to include your transaction in the deal. We will let you know as soon as we find out about the different options we can move forward with. Again, we're so sorry for this error on our part.
+
+John 

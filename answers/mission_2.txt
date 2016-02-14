@@ -1,1 +1,5 @@
 Write notes about your proposal for Mission 2 here.
+
+This new flow would live on the same page as the transaction summay page. There would be a button at the top called "New Transaction". Upon clicking, a modal would pop up with a new transaction form described in new_transaction.png. All of their external bank account information should be saved already. That is a separate flow that is part of the "User Settings" flow whereby they can add bank accounts. This modal will just have to collect what the source and destination accounts are, send these internal ids to the server, and the server will have all of the customer's actual bank information eg: routing number etc. stored encrypted in a table. The server will then do all of the work in making the transactio happen--calling out to external API's, etc.
+
+This will reduce security concerns, because the only information we are sending over the wire are ids of bank accounts that have no meaning to the outside world, the customer's id, and the amount.

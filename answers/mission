@@ -1,1 +1,12 @@
 Write notes about how you would debug here. 3_1.txt
+
+1. Customer error #1: He did not see the transaction in the ui
+	- I would first check the obvious. Look at the UI and see if the transaction in question is indeed missing.
+
+2. Customer error # 2: He did not actually make the transfer
+	- If it is missing from the UI, then I would wonder if the customer actually made the transfer. I would contact the bank and check if indeed they did receive the transfer.
+
+3. Bank API error : the bank received the transfer, but their API data was bad
+
+4. It's indeed a technical problem on our end, and we need to investigate
+
