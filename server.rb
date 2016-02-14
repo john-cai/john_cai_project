@@ -53,8 +53,8 @@ def clean_ledger(ledger_data)
 			     "amount"=> difference,
 			     "balance"=> difference + ledger['balance'],
 			     "requester"=> "UNKNOWN",
-			     "source"=> "UNKNOWN",
-			     "destination"=> "UNKNOWN"}
+			     "source"=> {"description" => "UNKNOWN", "type"=>"UNKOWN"},
+			     "destination"=> {"description" => "UNKNOWN", "type"=>"UNKOWN"}}
         ledger_data.insert(index+1, missing_transaction) 
       end
     end
